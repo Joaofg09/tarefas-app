@@ -132,7 +132,7 @@ const styles = {
   lista: { listStyle: 'none', padding: 0, margin: '0 0 1rem' },
   item: { display: 'flex', alignItems: 'center', gap: '10px', padding: '12px 0', borderBottom: '1px solid #222' },
   checkbox: { width: '16px', height: '16px', cursor: 'pointer', flexShrink: 0, accentColor: '#7c6af7' },
-  nomeTarefa: { flex: 1, fontSize: '14px' },
+  nomeTarefa: { flex: 1, fontSize: '14px', color: '#e0e0e0' },
   botaoDeletar: { background: 'transparent', border: 'none', color: '#444', cursor: 'pointer', fontSize: '14px', padding: '2px 6px', borderRadius: '4px' },
   erro: { color: '#f87171', fontSize: '13px' },
   vazio: { color: '#555', fontSize: '14px', textAlign: 'center', padding: '1.5rem 0' },

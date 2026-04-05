@@ -96,10 +96,10 @@ export default function Tarefas() {
                 style={styles.checkbox}
               />
               <span style={{
-                ...styles.nomeTarefa,
-                textDecoration: tarefa.feita ? 'line-through' : 'none',
-                color: tarefa.feita ? '#999' : '#1a1a1a'
-              }}>
+                    ...styles.nomeTarefa,
+                    textDecoration: tarefa.feita ? 'line-through' : 'none',
+                    color: tarefa.feita ? '#555' : '#e0e0e0'
+                }}>
                 {tarefa.nome}
               </span>
               <button
